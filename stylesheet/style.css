@@ -206,13 +206,10 @@
     
      #projects>div {
       display:grid;
-      grid-template-columns:1fr 1fr 1fr 1fr;
-      grid-gap:15px;
+      grid-template-columns:1fr 1fr 1fr;
+      grid-gap:25px;
     }
     
-    .large {
-      grid-column:span 2;
-    }
   }
   
   /*-Contact-*/
