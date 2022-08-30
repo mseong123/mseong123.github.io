@@ -9,407 +9,439 @@
     <link rel="stylesheet" href="stylesheet/style.css">
   </head>
   <body>
-    <nav id="navbar">
-      <h1>MS</h1>
-      <a href="#welcome-section">Welcome</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom" id="nav-scrollspy">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#expand">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand navbar-brand-custom">MSEONG</a>
+        </div>
+        <div class="collapse navbar-collapse" id="expand">
+          
+          <ul class="nav navbar-nav navbar-nav-custom">
+            <li><a href="#welcome-section">ABOUT ME</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        
+        </div>
+      </div>
     </nav>
+
     <section id="welcome-section">
       <h1>Full-Stack Web Developer</h1>
       <h3>Lean. Responsive. Maintainable Codes</h3>
     </section>
     <section id="projects">
       <h3>PROJECTS</h3>
-      <!--repeat following group of elements for additional project additions later-->
-      <h4>Responsive Web Design</h4>
-
-      <div>
-        
-        <div class="project-tile">
-          <a href="https://mseong.my/tribute-page/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/tribute-page/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">TRIBUTE PAGE</h4>
-            <p class="project-description-body">Simple Tribute Page with built-in responsiveness and semantic HTML
-              mark-up.
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/tribute-page" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/survey-form/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/survey-form/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">SURVEY FORM</h4>
-            <p class="project-description-body">Simple HTML Form markup with CSS Styling with CSS Grid layout adjustment
-              for larger viewport.
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/survey-form" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/product-landing-page/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/product-landing-page/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">PRODUCT LANDING PAGE</h4>
-            <p class="project-description-body">Sample Product Landing Page with extensive use of CSS Grid and Flexbox for
-              Layout.
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/product-landing-page" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <h4>Bootstrap Framework</h4>
-      <div>
-        
-        <div class="project-tile">
-          <a href="http://www.swsmotor.com.my" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <!--amended to be different from other groups. Use <img> instead of <iframe> since codepen disallow serving over http (swsmotor can't be hosted on https)-->
-              <img src="https://raw.githubusercontent.com/mseong123/assets/master/swsmotor/swsmotor.png"
-                alt="swsmotor.com.my snapshot picture">
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">CAR WORKSHOP LANDING PAGE (www.swsmotor.com.my)</h4>
-            <p class="project-description-body">Fully Functional Website built for Car Workshop Company and hosted on
-              actual domain. Features include:
-              <ul class="project-description-list">
-                <li>Navbar and page responsiveness built using Bootstrap.</li>
-                <li>WowJS framework used for Scrolling animation.</li>
-                <li>Embedded Google Map location.</li>
-                <li>Contact Form feature using embedded Google Forms.</li>
-              </ul>
-              <a href="https://github.com/mseong123/swsmotor-com-my" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/medical-center-landing-site-template/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/medical-center-landing-site-template/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">MEDICAL CENTER LANDING SITE TEMPLATE</h4>
-            <p class="project-description-body">Fully Responsive website built purely based on Bootstrap components and
-              plugins.
-              <ul class="project-description-list">
-                <li>Minimal CSS markup used. </li>
-                <li>Override Bootstrap default styles only when necessary using '-custom' namespace in CSS, consistent with
-                  best practices.</li>
-                <li>Full use of Bootstrap components and plugins including Modal, Carousel, Scrollspy, Nav, Navbar, Forms,
-                  Popovers, Layout.</li>
-                <li>Modified Carousel,Popover & Modal Plugins using JQUERY.</li>
-              </ul>
-              <a href="https://github.com/mseong123/medical-center-landing-site-template" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <h4>ReactJS</h4>
-      <div>
       
-        <div class="project-tile">
-          <a href="https://mseong.my/reactjs-random-quote-machine/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/reactjs-random-quote-machine"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">RANDOM QUOTE MACHINE</h4>
-            <p class="project-description-body">Provides random Inspirational Quotes. User can share quotes using Twitter.
-              Built using ReactJS.
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/reactjs-random-quote-machine" target="_blank">Github source code</a></p>
-          </div>
-        </div>
+      <ul class="nav nav-tabs nav-tabs-custom">
+        <li class="active"><a href="#" data-target="#front-end" data-toggle="tab">FRONT END</a></li>
+        <li><a href="#" data-target="#back-end" data-toggle="tab">BACK END</a></li>
+        <li><a href="#" data-target="#full-stack" data-toggle="tab">FULL STACK</a></li>
+      </ul>
 
-        <div class="project-tile">
-          <a href="https://mseong.my/reactjs-mark-down-previewer" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/reactjs-mark-down-previewer"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">MARK DOWN PREVIEWER</h4>
-            <p class="project-description-body">App automatically parses Markdown format to HTML5. Built using ReactJS 
-              and styled using Bootstrap layout.
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/reactjs-mark-down-previewer" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
+      <div class="tab-content">
+        <div class="tab-pane active fade in" id="front-end">
+          
+          <h4>Responsive Web Design</h4>
+          <div class="grid">
 
-        <div class="project-tile">
-          <a href="https://mseong.my/reactjs-drum-machine" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/reactjs-drum-machine"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">DRUM MACHINE</h4>
-            <p class="project-description-body">Built using ReactJS. Including keydown features. Styled using
-              Pure CSS.
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/reactjs-drum-machine" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/reactjs-javascript-calculator" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/reactjs-javascript-calculator"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">JAVASCRIPT CALCULATOR</h4>
-            <p class="project-description-body">A Fully Functional Calculator that can chain mathematical operations
-              together. Built using React. 
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/reactjs-javascript-calculator" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/reactjs-pomodoro-clock" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/reactjs-pomodoro-clock"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">POMODORO CLOCK</h4>
-            <p class="project-description-body">A Countdown Clock that uses the Pomodoro technique and alternates between
-              Session Timer and Break Timer. The length of the Timers are customisable and can be reset. Built using React
-              and Settings UI is styled using Bootstrap Modal module. 
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/reactjs-pomodoro-clock" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <h4>D3 Data Visualization</h4>
-      <div>
-        <div class="project-tile">
-          <a href="https://mseong.my/d3-barchart/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/d3-barchart/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">D3 BAR CHART with Dynamic filtering</h4>
-            <p class="project-description-body">United States GDP
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/d3-barchart" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </a>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/d3-scatterplot/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/d3-scatterplot/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">D3 Scatterplot</h4>
-            <p class="project-description-body">Doping in Professional Bicycle Racing
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/d3-scatterplot" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/d3-heatmap/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/d3-heatmap/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">D3 HeatMap</h4>
-            <p class="project-description-body">Monthly Global Land-Surface Temperature(Celcius) 1753-2015
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/d3-heatmap" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/d3-choropleth/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/d3-choropleth/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">D3 Choropleth</h4>
-            <p class="project-description-body">United States Educational Attainment - Percentage of adults age 25 and
-              older with a bachelor's degree or higher (2010-2014) 
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/d3-choropleth" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile">
-          <a href="https://mseong.my/d3-treemap/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/d3-treemap/"></iframe>
-            </div>
-            </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">D3 Treemap</h4>
-            <p class="project-description-body">Kickstarter Pledges - Top 100 Most Pledged Kickstarter Campaigns Grouped
-              By Category 
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/d3-treemap" target="_blank">Github source code</a>
-            </p>
-          </div>
-        </div>
-        
-      </div>
-
-      <h4>Classic Games</h4>
-      <div>
-        <div class="project-tile">
-          <a href="https://mseong.my/snake/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/snake/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">SNAKE</h4>
-            <p class="project-description-body">Built using PURE HTML/CSS/VANILLA JAVASCRIPT.
-              <ul class="project-description-list">
-                <li>Game designed using OOP principles using self-contained Objects with its own properties and functions. </li>
-                <li>Rendering is done using DOM API.</li>
-                <li>Responsive Design.</li>
-                <li>Controls draggable on Touch Screens using Touch API.</li>
-              </ul>
-              <a href="https://github.com/mseong123/snake" target="_blank">Github source code</a>
-            </p>
-          </div>
-        
-        </div>
-        <div class="project-tile">
-          <a href="https://mseong.my/space-invaders/" target="_blank">
-            <div class="project-wrapper">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://mseong.my/space-invaders/"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">SPACE INVADERS</h4>
-            <p class="project-description-body">
-              Built using vanilla JavaScript rendered with HTML CANVAS using OOP Principles (more performant than using DOM API
-              due to GAME having significantly more moving parts compared to SNAKE GAME).
-              <br>
-              <br>
-              <a href="https://github.com/mseong123/space-invaders" target="_blank">Github source code</a>
-            </p>
-          </div>
-        
-        </div>
-      </div>
-
-      <h4>Accounting Software</h4>
-      <div>
-        <div class="project-tile" style="grid-column:1 / span 3">
-          <a href="https://protocount.herokuapp.com" target="_blank">
-            <div class="project-wrapper full-stack">
-              <div class="project-hover-layer"></div>
-              <iframe src="https://protocount.herokuapp.com"></iframe>
-            </div>
-          </a>
-          <div class="project-description">
-            <h4 class="project-description-title2">
-              <img src="https://raw.githubusercontent.com/mseong123/assets/master/Protocount/accounting.svg" 
-              style="width:35px;height:35px;display: inline-block !important" alt='logo'/>
-              Protocount</h4>
-            <p class="project-description-body">
-              Fully functional Web-Based Accounting Software prototype built to imitate an off-the-shelf commercial accounting system  
-              <a href="https://www.autocountsoft.com/" target="'_blank">
-                 Autocount.
+            <div class="project-tile">
+              <a href="https://mseong.my/tribute-page/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/tribute-page/"></iframe>
+                </div>
               </a>
-                Built as a Single Page Application (SPA) using the following technology stack:
-              <h4>Front-End</h4>
-                ReactJS, ReactRouterJS for client side routing, Bootstrap (framework for CSS)
-              <h4>Back-End and Database</h4>
-                NodeJS (Javascript runtime web server), ExpressJS Framework (lightweight framework for NodeJS), 
-                NodeJS-MySQL driver (connector for database)
-              <h4>Database</h4>
-                MySQL (relational database - community version database)
-              <h4>Development tools</h4>
-                Git (version control), Create-React-App (development tool for ReactJS), MySQL Workbench (schema for MySQL) 
-              <br>
-              <br>
-              <strong>Development hours:4 months (300 hours)</strong>
-              <br>
-              <a href="http://protocount.herokuapp.com" target="_blank">Live Version (Hosted on Heroku)</a>&nbsp<em>[Username:<u>protocount</u> Password:<u>password</u>]</em>
-              <br>
-              <a href="https://github.com/mseong123/protocount-create-react-app" target="_blank">Github source code</a>&nbsp(Front end)
-              <br>
-              <a href="https://github.com/mseong123/protocount-nodejs-mysql" target="_blank">Github source code</a>&nbsp(Back end)
-            </p>
+              <div class="project-description">
+                <h4 class="project-description-title2">TRIBUTE PAGE</h4>
+                <p class="project-description-body">Simple Tribute Page with built-in responsiveness and semantic HTML
+                  mark-up.
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/tribute-page" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/survey-form/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/survey-form/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">SURVEY FORM</h4>
+                <p class="project-description-body">Simple HTML Form markup with CSS Styling with CSS Grid layout adjustment
+                  for larger viewport.
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/survey-form" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/product-landing-page/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/product-landing-page/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">PRODUCT LANDING PAGE</h4>
+                <p class="project-description-body">Sample Product Landing Page with extensive use of CSS Grid and Flexbox for
+                  Layout.
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/product-landing-page" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <h4>Bootstrap Framework</h4>
+          <div class="grid">
+            
+            <div class="project-tile">
+              <a href="http://www.swsmotor.com.my" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <!--amended to be different from other groups. Use <img> instead of <iframe> since codepen disallow serving over http (swsmotor can't be hosted on https)-->
+                  <img src="https://raw.githubusercontent.com/mseong123/assets/master/swsmotor/swsmotor.png"
+                    alt="swsmotor.com.my snapshot picture">
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">CAR WORKSHOP LANDING PAGE (www.swsmotor.com.my)</h4>
+                <p class="project-description-body">Fully Functional Website built for Car Workshop Company and hosted on
+                  actual domain. Features include:
+                  <ul class="project-description-list">
+                    <li>Navbar and page responsiveness built using Bootstrap.</li>
+                    <li>WowJS framework used for Scrolling animation.</li>
+                    <li>Embedded Google Map location.</li>
+                    <li>Contact Form feature using embedded Google Forms.</li>
+                  </ul>
+                  <a href="https://github.com/mseong123/swsmotor-com-my" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/medical-center-landing-site-template/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/medical-center-landing-site-template/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">MEDICAL CENTER LANDING SITE TEMPLATE</h4>
+                <p class="project-description-body">Fully Responsive website built purely based on Bootstrap components and
+                  plugins.
+                  <ul class="project-description-list">
+                    <li>Minimal CSS markup used. </li>
+                    <li>Override Bootstrap default styles only when necessary using '-custom' namespace in CSS, consistent with
+                      best practices.</li>
+                    <li>Full use of Bootstrap components and plugins including Modal, Carousel, Scrollspy, Nav, Navbar, Forms,
+                      Popovers, Layout.</li>
+                    <li>Modified Carousel,Popover & Modal Plugins using JQUERY.</li>
+                  </ul>
+                  <a href="https://github.com/mseong123/medical-center-landing-site-template" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <h4>ReactJS</h4>
+          <div class="grid">
+          
+            <div class="project-tile">
+              <a href="https://mseong.my/reactjs-random-quote-machine/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/reactjs-random-quote-machine"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">RANDOM QUOTE MACHINE</h4>
+                <p class="project-description-body">Provides random Inspirational Quotes. User can share quotes using Twitter.
+                  Built using ReactJS.
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/reactjs-random-quote-machine" target="_blank">Github source code</a></p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/reactjs-mark-down-previewer" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/reactjs-mark-down-previewer"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">MARK DOWN PREVIEWER</h4>
+                <p class="project-description-body">App automatically parses Markdown format to HTML5. Built using ReactJS 
+                  and styled using Bootstrap layout.
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/reactjs-mark-down-previewer" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/reactjs-drum-machine" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/reactjs-drum-machine"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">DRUM MACHINE</h4>
+                <p class="project-description-body">Built using ReactJS. Including keydown features. Styled using
+                  Pure CSS.
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/reactjs-drum-machine" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/reactjs-javascript-calculator" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/reactjs-javascript-calculator"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">JAVASCRIPT CALCULATOR</h4>
+                <p class="project-description-body">A Fully Functional Calculator that can chain mathematical operations
+                  together. Built using React. 
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/reactjs-javascript-calculator" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/reactjs-pomodoro-clock" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/reactjs-pomodoro-clock"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">POMODORO CLOCK</h4>
+                <p class="project-description-body">A Countdown Clock that uses the Pomodoro technique and alternates between
+                  Session Timer and Break Timer. The length of the Timers are customisable and can be reset. Built using React
+                  and Settings UI is styled using Bootstrap Modal module. 
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/reactjs-pomodoro-clock" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <h4>D3 Data Visualization</h4>
+          <div class="grid">
+            <div class="project-tile">
+              <a href="https://mseong.my/d3-barchart/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/d3-barchart/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">D3 BAR CHART with Dynamic filtering</h4>
+                <p class="project-description-body">United States GDP
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/d3-barchart" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </a>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/d3-scatterplot/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/d3-scatterplot/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">D3 Scatterplot</h4>
+                <p class="project-description-body">Doping in Professional Bicycle Racing
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/d3-scatterplot" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/d3-heatmap/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/d3-heatmap/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">D3 HeatMap</h4>
+                <p class="project-description-body">Monthly Global Land-Surface Temperature(Celcius) 1753-2015
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/d3-heatmap" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/d3-choropleth/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/d3-choropleth/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">D3 Choropleth</h4>
+                <p class="project-description-body">United States Educational Attainment - Percentage of adults age 25 and
+                  older with a bachelor's degree or higher (2010-2014) 
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/d3-choropleth" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/d3-treemap/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/d3-treemap/"></iframe>
+                </div>
+                </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">D3 Treemap</h4>
+                <p class="project-description-body">Kickstarter Pledges - Top 100 Most Pledged Kickstarter Campaigns Grouped
+                  By Category 
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/d3-treemap" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+            
+          </div>
+
+          <h4>Classic Games</h4>
+          <div class="grid">
+            <div class="project-tile">
+              <a href="https://mseong.my/snake/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/snake/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">SNAKE</h4>
+                <p class="project-description-body">Built using PURE HTML/CSS/VANILLA JAVASCRIPT.
+                  <ul class="project-description-list">
+                    <li>Game designed using OOP principles using self-contained Objects with its own properties and functions. </li>
+                    <li>Rendering is done using DOM API.</li>
+                    <li>Responsive Design.</li>
+                    <li>Controls draggable on Touch Screens using Touch API.</li>
+                  </ul>
+                  <a href="https://github.com/mseong123/snake" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://mseong.my/space-invaders/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://mseong.my/space-invaders/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">SPACE INVADERS</h4>
+                <p class="project-description-body">
+                  Built using vanilla JavaScript rendered with HTML CANVAS using OOP Principles (more performant than using DOM API
+                  due to GAME having significantly more moving parts compared to SNAKE GAME).
+                  <br>
+                  <br>
+                  <a href="https://github.com/mseong123/space-invaders" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="back-end">
+          <p class="to-be-updated">&lt;To Be Updated Soon&gt;</p>
+        </div>
+
+        <div class="tab-pane fade" id="full-stack">
+          <h4>Accounting Software</h4>
+          <div class="grid">
+            <div class="project-tile" style="grid-column:1 / span 3">
+              <a href="https://protocount.herokuapp.com" target="_blank">
+                <div class="project-wrapper full-stack">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://protocount.herokuapp.com"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">
+                  <img src="https://raw.githubusercontent.com/mseong123/assets/master/Protocount/accounting.svg" 
+                  style="width:35px;height:35px;display: inline-block !important" alt='logo'/>
+                  Protocount</h4>
+                <p class="project-description-body">
+                  Fully functional Web-Based Accounting Software prototype built to imitate an off-the-shelf commercial accounting system  
+                  <a href="https://www.autocountsoft.com/" target="'_blank">
+                    Autocount.
+                  </a>
+                    Built as a Single Page Application (SPA) using the following technology stack:
+                  <h4>Front-End</h4>
+                    ReactJS, ReactRouterJS for client side routing, Bootstrap (framework for CSS)
+                  <h4>Back-End and Database</h4>
+                    NodeJS (Javascript runtime web server), ExpressJS Framework (lightweight framework for NodeJS), 
+                    NodeJS-MySQL driver (connector for database)
+                  <h4>Database</h4>
+                    MySQL (relational database - community version database)
+                  <h4>Development tools</h4>
+                    Git (version control), Create-React-App (development tool for ReactJS), MySQL Workbench (schema for MySQL) 
+                  <br>
+                  <br>
+                  <strong>Development hours:4 months (300 hours)</strong>
+                  <br>
+                  <a href="http://protocount.herokuapp.com" target="_blank">Live Version (Hosted on Heroku)</a>&nbsp<em>[Username:<u>protocount</u> Password:<u>password</u>]</em>
+                  <br>
+                  <a href="https://github.com/mseong123/protocount-create-react-app" target="_blank">Github source code</a>&nbsp(Front end)
+                  <br>
+                  <a href="https://github.com/mseong123/protocount-nodejs-mysql" target="_blank">Github source code</a>&nbsp(Back end)
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
 
       </div>
-
     </section>
 
 

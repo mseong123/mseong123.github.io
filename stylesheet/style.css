@@ -1,50 +1,21 @@
-* {
-    padding:0;
-    margin:0;
-  }
-  
   /*--NAVBAR--*/
-  #navbar {
-    position:fixed;
-    left:0;
-    right:0;
-    top:0;
-    z-index:3; 
-    display:flex;
+  
+  .navbar-custom {
     background-color:#F8F1E5;
   }
-  #navbar>h1 {
-    font-size:30px;
-    letter-spacing:2px;
-    font-weight:200;
-    padding:7px 10px;
-    color:#003333;
-  }
-  #navbar>a {
-    text-transform:uppercase;
-    font-weight:700;
-    padding:0 3px;
-    display:flex;
-    align-items:center;
-    color:#003333;
-    font-weight:200;
-    border:2px solid transparent;
-  }
-  #navbar>a:hover {
-    border:2px solid #F9BA32;
-    
-  }
+
+  .navbar-brand-custom {
+      font-size:20px;
+    }
+
   @media (min-width:768px) {
-    #navbar>h1 {
-      font-size:40px;
-      padding:10px 20px;
+    .navbar-brand-custom {
+      font-size:30px;
     }
-    #navbar>a {
-    font-size:16px;
-    padding:0 10px;
-    font-weight:600;
-    margin:5px 7px;
+    .navbar-nav-custom {
+      font-size:18px;
     }
+   
   }
   
   /*--WELCOME--*/
@@ -94,8 +65,11 @@
     padding:5px 20px;
   }
   
-  
-  #projects>h4 {
+  .nav-tabs-custom > li > a {
+    color:#426E86;
+  }
+
+  .tab-pane>h4 {
     color:#003333;
     padding:5px 0;
     text-align:left;
@@ -103,8 +77,10 @@
     margin-bottom:30px;
     margin-top:20px;
   }
-  
-  
+
+  .grid {
+    margin-bottom:60px;
+  }
   
   .project-tile {
     margin-bottom:20px;
@@ -178,13 +154,21 @@
   .project-description-list {
     padding-left:15px;
   }
+
+  .to-be-updated {
+    color:#777;
+    padding:20px 20px;
+    font-size:20px;
+    text-align:left;
+
+  }
   
   @media (min-width:768px) {
      #projects {
        padding:0 8%;
     }
     
-     #projects>div {
+     .grid {
       display:grid;
       grid-template-columns:1fr 1fr 1fr;
       grid-gap:25px;
