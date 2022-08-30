@@ -202,36 +202,26 @@
     align-items:center;
     justify-content:center;
   }
-  #contact>a {
-    margin:20px;
-    color:white;
-  }
-  
-  #profile-link {
-    color:white;
-    font-size:30px;
-    text-align:center;
-    width:150px;
-    height:150px;
-    border-radius:100%;
-    background-color:#F9BA32;
+
+  #contact > div {
     display:flex;
-    align-items:center;
-    justify-content:center;
+    width:80%;
+    flex-wrap:wrap;
   }
-  #profile-link b {
-    font-size:15px;
+
+  #contact a {
+    flex:1 1 1em;
+    color:white;
+    padding:20px 20px;
+    text-align:center;
   }
   
-  #profile-link-other {
-    margin:20px;
-    color:white;
-  }
   footer {
     background:#2F3131;
     color:white;
     text-align:center;
   }
+  
   footer>p,
   footer>small{
     padding:10px 0;
@@ -243,7 +233,7 @@
   }
   @media (min-width:768px) {
     #contact {
-      flex-direction:row;
+      
       height:70vh;
     }
   }
