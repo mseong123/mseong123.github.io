@@ -67,6 +67,8 @@
   
   .nav-tabs-custom > li > a {
     color:#426E86;
+    padding-left:10px;
+    padding-right:10px;
   }
 
   .tab-pane>h4 {
