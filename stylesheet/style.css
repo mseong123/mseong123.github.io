@@ -185,7 +185,11 @@
     padding:20px 20px;
     font-size:20px;
     text-align:left;
+  }
 
+  .full-stack-img {
+    display:block;
+    height:100%;
   }
   
   @media (min-width:768px) {
@@ -200,6 +204,11 @@
     }
     .full-stack {
       padding-top:40%;
+    }
+
+    .full-stack-img {
+      width:100%;
+      height:auto;
     }
   }
 
