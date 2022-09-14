@@ -54,21 +54,21 @@
           <div class="col-sm-4" style="margin-bottom:40px">
             <h3 style="border-bottom:2px solid white;margin-top:0">Toolbox <i class="fa fa-wrench"></i></h3>
             <p>
-              <u>Languages</u>: HTML,CSS,Javascript,SQL
+              <u>Languages</u>: HTML, CSS, Javascript, SQL
               <br>
               <u>Preprocessor</u>: LESS/SASS
               <br>
-              <u>Framework/Libraries</u>:Bootstrap,React,ReactRouter, NodeJS (ExpressJS)
+              <u>Framework/Libraries</u>:Bootstrap, React, ReactRouter, NodeJS (ExpressJS), MongooseJS
               <br>
-              <u>Database</u>:MySQL
+              <u>Database</u>:MySQL, MongoDB
               <br>
-              <u>VCS</u>:Git,github
+              <u>VCS</u>:Git, GitHub
               <br>
               <u>IDE</u>: Microsoft Visual Code Studio
               <br>
               <u>Development tools</u>: npm, create-react-app, Chrome Devtool
               <br>
-              <u>Others</u>:Website Hosting, Heroku
+              <u>Others</u>:Website Hosting, Heroku, Netlify
             </p>
           </div>
 
@@ -78,7 +78,6 @@
               <ul style="padding-left:20px">
                 <li>You don't know JS <u>Kyle Simpson (Essential Read for Javascript)</u></li>
                 <li>Database Systems_ Design, Implementation, & Management (2016) <u>Carlos Coronel, Steven Morris</u></li>
-                <li>Beginning JavaScript, 5th Edition <u>Jeremy McPeak and Paul Wilton</u></li>
                 <li>Pro Git (Essential Read for Git) <u>Scott Chacon, Ben Straub</u></li>
               </ul>
             
@@ -446,7 +445,77 @@
         </div>
 
         <div class="tab-pane fade" id="back-end">
-          <p class="to-be-updated">&lt;To Be Updated Soon&gt;</p>
+
+          <h4>Microservice</h4>
+          <div class="grid">
+
+            <div class="project-tile">
+              <a href="https://microservice-timestamp-mseong.netlify.com/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://microservice-timestamp-mseong.netlify.com/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">TIMESTAMP MICROSERVICE</h4>
+                <p class="project-description-body">This service accepts a valid date (either in the format YYYY-MM-DD or in UNIX timestamp seconds) 
+                  submitted as part of the GET METHOD. It will return a JSON object with UNIX and UTC time properties of the submitted date. If 
+                  an invalid date is given, it will return a JSON object stating so.
+                  <ul class="project-description-list">
+                    <li>Built using NodeJS and ExpressJS.</li>
+                    <li>Hosted on Netlify.</li>
+                    <li>Server-side API is built using Netlify's serverless AWS Lambda Functions.</li>
+                  </ul>
+                  <a href="https://github.com/mseong123/microservice-timestamp" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://microservice-file-metadata-mseong.netlify.com/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://microservice-file-metadata-mseong.netlify.com/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">FILE METADATA MICROSERVICE</h4>
+                <p class="project-description-body">This service accepts a single file upload and will return a JSON object with name, 
+                  type and size(in bytes) properties of the uploaded file.
+                  <ul class="project-description-list">
+                    <li>Built using NodeJS and ExpressJS.</li>
+                    <li>Hosted on Netlify.</li>
+                    <li>Server-side API is built using Netlify's serverless AWS Lambda Functions.</li>
+                  </ul>
+                  <a href="https://github.com/mseong123/microservice-file-metadata" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://microservice-headerparser-mseong.netlify.com/" target="_blank">
+                <div class="project-wrapper">
+                  <div class="project-hover-layer"></div>
+                  <iframe src="https://microservice-headerparser-mseong.netlify.com/"></iframe>
+                </div>
+              </a>
+              <div class="project-description">
+                <h4 class="project-description-title2">HEADER PARSER MICROSERVICE</h4>
+                <p class="project-description-body">This service parses your GET request header and returns your IP address, 
+                  language, operating system and browser specs. 
+                  <ul class="project-description-list">
+                    <li>Built using NodeJS and ExpressJS.</li>
+                    <li>Hosted on Netlify.</li>
+                    <li>Server-side API is built using Netlify's serverless AWS Lambda Functions.</li>
+                  </ul>
+                  <a href="https://github.com/mseong123/microservice-headerparser" target="_blank">Github source code</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
         </div>
 
         <div class="tab-pane fade" id="full-stack">
