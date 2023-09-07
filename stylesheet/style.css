@@ -193,15 +193,20 @@
   }
   
   @media (min-width:768px) {
-     #projects {
+    #projects {
        padding:0 8%;
     }
     
-     .grid {
+    .grid {
       display:grid;
       grid-template-columns:1fr 1fr 1fr;
       grid-gap:25px;
     }
+
+	.grid-fullstack {
+		grid-column:1 / span 3
+	}
+
     .full-stack {
       padding-top:40%;
     }
@@ -219,6 +224,15 @@
   }
 
   @media (min-width:1200px) {
+	.grid {
+		grid-template-columns:1fr 1fr 1fr 1fr;
+	  }
+	
+	.grid-fullstack {
+		grid-column:2 / span 2
+	}
+
+
     .full-stack {
       padding-top:30%;
     }
